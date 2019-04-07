@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB32F88C225A583600A5C694 /* testCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB32F88A225A583600A5C694 /* testCoreData.xcdatamodeld */; };
 		EBC5B85E225975CC005EE684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC5B85D225975CC005EE684 /* AppDelegate.swift */; };
 		EBC5B860225975CC005EE684 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBC5B85F225975CC005EE684 /* ViewController.swift */; };
 		EBC5B863225975CC005EE684 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBC5B861225975CC005EE684 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB32F88B225A583600A5C694 /* testCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testCoreData.xcdatamodel; sourceTree = "<group>"; };
 		EBC5B85A225975CC005EE684 /* testGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBC5B85D225975CC005EE684 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBC5B85F225975CC005EE684 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				EBC5B869225975CD005EE684 /* LaunchScreen.storyboard */,
 				EBC5B86C225975CD005EE684 /* Info.plist */,
 				EBC5B864225975CC005EE684 /* testGit.xcdatamodeld */,
+				EB32F88A225A583600A5C694 /* testCoreData.xcdatamodeld */,
 			);
 			path = testGit;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB32F88C225A583600A5C694 /* testCoreData.xcdatamodeld in Sources */,
 				EBC5B860225975CC005EE684 /* ViewController.swift in Sources */,
 				EBC5B85E225975CC005EE684 /* AppDelegate.swift in Sources */,
 				EBC5B866225975CC005EE684 /* testGit.xcdatamodeld in Sources */,
@@ -342,6 +346,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		EB32F88A225A583600A5C694 /* testCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EB32F88B225A583600A5C694 /* testCoreData.xcdatamodel */,
+			);
+			currentVersion = EB32F88B225A583600A5C694 /* testCoreData.xcdatamodel */;
+			path = testCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		EBC5B864225975CC005EE684 /* testGit.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
